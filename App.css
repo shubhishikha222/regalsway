@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  color:black;
+  font-size: large;
+  margin-left: 1200px;
+  padding-top: 20px;
+  font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    opacity: 1;
+    margin-bottom: 20px;
+    position: relative;
+}
+li:hover {
+  color: green;
+}
+
+.head {
+  background-image: url(./image/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;  
+}
+.h1 {
+    display: block;
+    color:black;
+    font-size: 68px;
+    line-height: 70px;
+    font-weight: 700;
+    line-height: 5.0;
+    color: black;
+    white-space: pre-wrap;
+}
+
+ .section {
+  display: flex;
+  background: #eeebeb;
+ }
+ .main {
+  margin-left: 280px;
+  margin-top:80px ;
+  
+ }
+ .image {
+  margin-left:50px;
+  margin-top: 80px;
+ }
+ .main h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+ }
+ .main h1 {
+  margin-bottom: 10px;
+ }
+ 
+ .grid-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  margin: 30px;
+  margin-left: 100px;
+  padding: 50px 100px;
+ }
+
+
+.serve {
+  text-align: center;
+}
+.serve h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.algohead {
+  text-align: center;
+  margin: 50px;
+}
+.algocontent img {
+  width: 600px;
+  height: 400px;
+}
+.algocontent {
+  display: flex;
+  text-align: center;
+  margin-left: 350px;
+  margin-bottom: 80px;
+}
+
+.algocontent1 img {
+  width: 600px;
+  height: 400px;
+}
+.algocontent1 {
+  display: flex;
+  text-align: center;
+  margin-left: 350px;
+}
+.algocontent ,h3 ,p {
+  margin-top: 20px;
+}
+.algocontent1 ,h3 ,p {
+  margin-top: 20px;
+}
+.algocontent p {
+  line-height: 20px;
+  text-indent: 15px;
+}
+.algocontent1 p {
+  line-height: 20px;
+  text-indent: 30px;
+}
+
+.projecthead {
+  text-align: center;
+  margin: 30px;
+  margin-top: 200px;
+}
+
+.projects {
+  white-space: nowrap;
+}
